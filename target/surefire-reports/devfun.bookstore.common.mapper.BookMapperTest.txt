@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: devfun.bookstore.common.mapper.BookMapperTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.468 sec <<< FAILURE! - in devfun.bookstore.common.mapper.BookMapperTest
+testBookMapper(devfun.bookstore.common.mapper.BookMapperTest)  Time elapsed: 0.004 sec  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'devfun.bookstore.common.mapper.BookMapperTest': Unsatisfied dependency expressed through field 'bookMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'devfun.bookstore.common.domain.BookMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'devfun.bookstore.common.domain.BookMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+

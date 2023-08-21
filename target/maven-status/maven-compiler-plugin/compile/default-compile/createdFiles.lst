@@ -1,0 +1,5 @@
+devfun\bookstore\common\domain\Book.class
+MainTest.class
+devfun\bookstore\rest\config\RestAppConfig.class
+devfun\bookstore\common\config\AppConfig.class
+devfun\bookstore\common\domain\BookMapper.class

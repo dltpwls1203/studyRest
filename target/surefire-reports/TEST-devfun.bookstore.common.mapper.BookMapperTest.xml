@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="devfun.bookstore.common.mapper.BookMapperTest" time="1.468" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.20+9-LTS-256"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\\studySpace\\RestfullStudy\\restapp"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\studySpace\RestfullStudy\restapp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\이세진\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\\0900_GB_LSJ\\util\\apache-maven-3.9.4\\bin\\m2.conf"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-1.8\bin;C:\Program Files\Git\cmd;D:\0900_GB_LSJ\util\apache-maven-3.9.4\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\이세진\AppData\Local\Microsoft\WindowsApps;C:\Users\이세진\AppData\Local\Programs\Microsoft VS Code\bin;D:\IntelliJ IDEA Community Edition 2023.2\bin;;."/>
+    <property name="maven.conf" value="D:\\0900_GB_LSJ\\util\\apache-maven-3.9.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\\0900_GB_LSJ\\util\\apache-maven-3.9.4\\lib\\jansi-native"/>
+    <property name="user.home" value="C:\Users\이세진"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="MS949"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="sejin"/>
+    <property name="java.class.path" value="D:\\0900_GB_LSJ\\util\\apache-maven-3.9.4\\boot\\plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -U"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="user.language" value="ko"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="ms949"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="maven.home" value="D:\0900_GB_LSJ\util\apache-maven-3.9.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="ms949"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testBookMapper" classname="devfun.bookstore.common.mapper.BookMapperTest" time="0.004">
+    <error message="Error creating bean with name &apos;devfun.bookstore.common.mapper.BookMapperTest&apos;: Unsatisfied dependency expressed through field &apos;bookMapper&apos;; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;devfun.bookstore.common.domain.BookMapper&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}" type="org.springframework.beans.factory.UnsatisfiedDependencyException">org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'devfun.bookstore.common.mapper.BookMapperTest': Unsatisfied dependency expressed through field 'bookMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'devfun.bookstore.common.domain.BookMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'devfun.bookstore.common.domain.BookMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+</error>
+    <system-out><![CDATA[19:18:25,663 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+19:18:25,665 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+19:18:25,665 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/D:/studySpace/RestfullStudy/restapp/target/classes/logback.xml]
+19:18:25,786 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+19:18:25,801 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeFilter scanning period to 3 seconds
+19:18:25,801 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[D:\studySpace\RestfullStudy\restapp\target\classes\logback.xml]] every 3 seconds. 
+19:18:25,801 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+19:18:25,822 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+19:18:25,825 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [console]
+19:18:25,874 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+19:18:25,986 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+19:18:25,986 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+19:18:25,986 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+19:18:25,987 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to INFO
+19:18:25,987 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to WARN
+19:18:25,988 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [console] to Logger[ROOT]
+19:18:25,988 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+19:18:25,989 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@d6e7bab - Registering current configuration as safe fallback point
+
+19:18:26.125 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+19:18:26.151 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3feb2dda, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6a8658ff, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1c742ed4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@333d4a8c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@55de24cc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@dc7df28]
+19:18:26.288 [main] INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@7098b907: startup date [Sun Aug 20 19:18:26 KST 2023]; root of context hierarchy
+19:18:26.388 [main] WARN  o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[devfun.bookstore.common.mapper]' package. Please check your configuration.
+19:18:26.585 [main] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:hsqldb:mem:testdb', username='sa'
+19:18:26.924 [main] INFO  o.s.j.d.init.ScriptUtils - Executing SQL script from class path resource [schema.sql]
+19:18:26.930 [main] INFO  o.s.j.d.init.ScriptUtils - Executed SQL script from class path resource [schema.sql] in 6 ms.
+19:18:26.931 [main] INFO  o.s.j.d.init.ScriptUtils - Executing SQL script from class path resource [data.sql]
+19:18:26.936 [main] INFO  o.s.j.d.init.ScriptUtils - Executed SQL script from class path resource [data.sql] in 5 ms.
+19:18:27.030 [main] ERROR o.s.t.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1c742ed4] to prepare test instance [devfun.bookstore.common.mapper.BookMapperTest@e041f0c]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'devfun.bookstore.common.mapper.BookMapperTest': Unsatisfied dependency expressed through field 'bookMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'devfun.bookstore.common.domain.BookMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:386) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) ~[spring-test-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367) ~[surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274) ~[surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) ~[surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161) ~[surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290) ~[surefire-booter-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242) ~[surefire-booter-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121) ~[surefire-booter-2.19.1.jar:2.19.1]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'devfun.bookstore.common.domain.BookMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585) ~[spring-beans-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	... 30 common frames omitted
+]]></system-out>
+  </testcase>
+</testsuite>
