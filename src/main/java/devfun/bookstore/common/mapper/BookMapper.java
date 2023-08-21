@@ -1,6 +1,8 @@
-package devfun.bookstore.common.domain;
+package devfun.bookstore.common.mapper;
 
 import java.util.List;
+
+import devfun.bookstore.common.domain.Book;
 
 public interface BookMapper {
 

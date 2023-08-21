@@ -17,7 +17,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 import devfun.bookstore.common.config.AppConfig;
 import devfun.bookstore.common.domain.Book;
-import devfun.bookstore.common.domain.BookMapper;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes= {AppConfig.class})
