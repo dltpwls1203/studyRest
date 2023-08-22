@@ -3,6 +3,7 @@ package devfun.bookstore.common.mapper;
 import static org.junit.Assert.*;
 
 
+
 import java.util.Date;
 import java.util.List;
 
@@ -25,6 +26,12 @@ public class BookMapperTest {
 Logger logger = LoggerFactory.getLogger(BookMapperTest.class);
 	
 	@Autowired BookMapper bookMapper;
+	
+	@Test
+	public void test() {
+		System.out.println("테스트 출");
+	}
+	
 	
 	@Test
 	public void testBookMapper() {
