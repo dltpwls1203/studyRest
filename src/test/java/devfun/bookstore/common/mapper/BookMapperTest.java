@@ -29,8 +29,9 @@ Logger logger = LoggerFactory.getLogger(BookMapperTest.class);
 	
 	@Test
 	public void test() {
-		System.out.println("테스트 코드");
+		System.out.println("gitbash 테스트");
 	}
+	
 	
 	
 	@Test
