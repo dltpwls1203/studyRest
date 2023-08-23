@@ -29,7 +29,7 @@ Logger logger = LoggerFactory.getLogger(BookMapperTest.class);
 	
 	@Test
 	public void test() {
-		System.out.println("테스트 출");
+		System.out.println("테스트 코드");
 	}
 	
 	
